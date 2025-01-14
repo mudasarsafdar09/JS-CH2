@@ -19,8 +19,32 @@ let c = 10;
 console.log("a = ", a, "& b = ", b, "& c = ", c,);
 a++;
 b--;
+c++;
 console.log("a = ", a);
 console.log("b = ", b);
+console.log("c = ", c);
 
-console.log("c++ = ", c++); //10
-console.log("c = ", c); //v11
+let d = 20;
+console.log("d = ",d);
+// d++;
+console.log("d++ = ",d++);  //20
+console.log("d = ",d);  //21
+
+let e = 30;
+console.log("e = ",e);
+// e++;
+console.log("++e = ",++e);  //31
+console.log("e = ",e);
+
+//Asignment Operators
+let f = 10;
+let g = 8;
+
+f += 4; // f = f + 4
+console.log("f = ", f);
+
+g **= 4; // g = g ** 4
+console.log("g = ", g);
+
+
+
