@@ -46,5 +46,15 @@ console.log("f = ", f);
 g **= 4; // g = g ** 4
 console.log("g = ", g);
 
+//Compairson Operators
+let h = 5;
+let i = 5;
+
+console.log("h == i", h == i);
+
+let h2 = 5;
+let i2 = 5;
+
+console.log("h2 != i2", h2 != i2);
 
 
