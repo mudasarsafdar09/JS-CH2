@@ -106,3 +106,47 @@ let t = 10;
 console.log("!(n > t) = ", !(n > t) );
 console.log("!(n < t) = ", !(n < t) );
 
+//Conditional Statements
+// let age = 16;
+// if(age > 18) {
+//     console.log("you can vote");
+// }
+
+// if(age < 18) {
+//     console.log("you CANNOT vote");
+// }  
+
+let mode = "light";
+let color;
+
+if(mode === "dark") {
+    color = "black";
+} else {
+    color = "white";
+}
+
+// if(mode === "light") {
+//     color = "white";
+// }
+
+console.log(color);
+
+let age = 16;
+
+if (age >= 18) {
+    console.log("vote");
+} else {
+    console.log("not vote");
+}
+
+//Conditional Statements 
+//odd or even
+let num = 20;
+
+if (num % 2 === 0) {
+    console.log(num," is even");
+} else {
+    console.log(num,"is odd");
+}
+
+//syntax -> rules
