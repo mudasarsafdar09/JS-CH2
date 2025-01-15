@@ -46,6 +46,12 @@ console.log("f = ", f);
 g **= 4; // g = g ** 4
 console.log("g = ", g);
 
+let m = 25;
+console.log("m = ",m);
+console.log("m x m x m x m = ", m ** 4);
+
+console.log("m = ", m ** 4);
+
 //Compairson Operators
 let h = 5;
 let i = 5;
@@ -57,4 +63,46 @@ let i2 = 5;
 
 console.log("h2 != i2", h2 != i2);
 
+let k = 5; //number
+let s = "5"; //string -> number
+
+console.log("k === s", k === s);
+
+let x = 5; //number
+let y = "5"; //string -> number
+
+console.log("x !== y", x !== y);
+
+let o = 6;
+let p = 5;
+
+// console.log("5 > 3", o > p);
+// console.log("5 < 3", o < p);
+
+console.log("6 >= 5", o >= p);
+// console.log("5 <= 5", o <= p);
+
+//Logical Operators
+//Logical AND &&
+let l = 6;
+let r = 5;
+
+// let cond1 =  //true
+// let cond2 = ; //true
+console.log("cond1 && cond2 = ", l > r && l === 6);
+
+//Logical OR ||
+let oo = 6;
+let rr = 10;
+
+// let cond1 =  //true
+// let cond2 = ; //true
+console.log("cond1 || cond2 = ", oo > rr || rr === 6);
+
+//Logical Not !
+let n = 6;
+let t = 10;
+
+console.log("!(n > t) = ", !(n > t) );
+console.log("!(n < t) = ", !(n < t) );
 
